@@ -1,0 +1,120 @@
+header{
+    position: relative;
+}
+header > img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.opacity{
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    top: 0;
+    background: rgb(0, 0, 0);
+    opacity: 0.5;
+    z-index: 1;
+}
+.Premium{
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+    top: 180px;
+    text-align: center;
+    z-index: 2;
+}
+.Premium > h1{
+    font-size: 60px;
+}
+.Premium > p{
+    font-size: 26px;
+}
+.Premium > button{
+    padding: 5px 20px;
+    color: white;
+    background-color: #0ECB6F;
+}
+.read-more-background{
+    position: relative;
+}
+.read-more-about{
+    background-image: url('../images/download.jpg');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.background-overlay{
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: rgba(0,0,0,.54);
+    opacity: 1;
+}
+.elementor-widget-container h1{
+    position: relative;
+}
+.read-more-about .row{
+    width: 90%;
+    margin: 0 auto;
+}
+.read-more-about .row .col{
+    padding-bottom: 20px;
+}
+.read-more-about .row .col img{
+    width: 100%;
+}
+.read-more-about .row .col p{
+    margin: 20px 0 60px 0;
+    font-size: 28px;
+    color: white;
+}
+.read-more-about .row .col .link-read-more{
+    font-size: 14px;
+    padding: 5px 10px;
+    background-color: #5bc0de;
+    color: white;
+    font-weight: bold;
+}
+.some-of-our{
+    margin: 30px 0;
+    color: #7a7a7a;
+    font-size: 40px;
+    text-align: center;
+}
+.some-domains .row{
+    width: 90%;
+    margin: 0 auto;
+}
+.gateway{
+    position: relative;
+}
+.our-payment{
+    background-image: url('../images/download.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.gateway .our-payment .row{
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+.gateway .our-payment .row img{
+    position: relative;
+    padding: 3px 20px;
+    margin: 40px auto;
+    background-color: white;
+}
+.gateway .our-payment .row p{
+    color: white;
+}
+.footer-gateway{
+    width: 40px;
+    height: 3px;
+    margin: 0 auto;
+    color: #0fa597;
+}
